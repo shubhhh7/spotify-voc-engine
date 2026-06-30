@@ -1,0 +1,98 @@
+[
+  {
+    "question": "How long have you been using Spotify?",
+    "type": "Multiple Choice",
+    "choices": ["Less than 1 year", "1–3 years", "3–5 years", "5–8 years", "More than 8 years"]
+  },
+  {
+    "question": "Which Spotify plan do you currently use?",
+    "type": "Multiple Choice",
+    "choices": ["Premium Individual", "Premium Family", "Premium Duo", "Premium Student", "Free", "Not sure"]
+  },
+  {
+    "question": "How frequently do you use Spotify?",
+    "type": "Multiple Choice",
+    "choices": ["Multiple times a day", "Once a day", "A few times a week", "Once a week", "Less than once a week"]
+  },
+  {
+    "question": "What best describes your music taste?",
+    "type": "Multiple Choice",
+    "choices": ["Mostly one genre", "2–3 genres", "Many different genres", "My music taste changes frequently"]
+  },
+  {
+    "question": "In which situations do you usually use Spotify?",
+    "type": "Checkboxes",
+    "choices": ["Work", "Gym", "Studying", "Commute", "Driving", "Relaxing", "Sleeping", "Gaming", "With friends/family", "Other"]
+  },
+  {
+    "question": "How often do you actively try to discover new music?",
+    "type": "Multiple Choice",
+    "choices": ["Daily", "Weekly", "Monthly", "Rarely", "Never"]
+  },
+  {
+    "question": "Which Spotify features do you primarily use to discover new music? (Select up to 3)",
+    "type": "Checkboxes",
+    "choices": ["Discover Weekly", "Release Radar", "Song Radio", "Artist Radio", "Daily Mix", "DJ", "Smart Shuffle", "Home recommendations", "Search manually", "Friends' playlists", "I rarely use Spotify for discovery"]
+  },
+  {
+    "question": "Overall, how satisfied are you with Spotify's ability to help you discover new music? (1 = Very Dissatisfied, 5 = Very Satisfied)",
+    "type": "Linear Scale",
+    "choices": ["1", "2", "3", "4", "5"]
+  },
+  {
+    "question": "Compared to when you first started using Spotify, music discovery today is:",
+    "type": "Multiple Choice",
+    "choices": ["Much better", "Slightly better", "About the same", "Slightly worse", "Much worse"]
+  },
+  {
+    "question": "Which of the following problems have you experienced?",
+    "type": "Checkboxes",
+    "choices": [
+      "I keep hearing the same songs repeatedly.",
+      "Recommendations mostly contain artists I already know.",
+      "Shuffle doesn't feel random.",
+      "My work/sleep/gym listening affects recommendations.",
+      "Recommendations no longer match my current taste.",
+      "\"Hide\" / \"Not Interested\" doesn't seem to work.",
+      "I struggle to discover music outside my usual genres.",
+      "I haven't experienced any of these."
+    ]
+  },
+  {
+    "question": "When you repeatedly listen to the same songs, what is usually the biggest reason?",
+    "type": "Multiple Choice",
+    "choices": ["Spotify keeps recommending them.", "Shuffle repeats them.", "I genuinely enjoy replaying my favorite songs.", "I don't actively search for new music.", "Other"]
+  },
+  {
+    "question": "How much control do you feel you have over Spotify's music recommendations? (1 = No control at all, 5 = Complete control)",
+    "type": "Linear Scale",
+    "choices": ["1", "2", "3", "4", "5"]
+  },
+  {
+    "question": "Which ONE improvement would most improve your Spotify experience?",
+    "type": "Multiple Choice",
+    "choices": ["Better recommendations", "True random shuffle", "Incognito / Separate listening modes", "Ability to reset or edit recommendations", "Better \"Hide\" / \"Not Interested\" controls", "More adventurous recommendations", "Better social discovery", "AI music filter", "Other"]
+  },
+  {
+    "question": "Think about the last time Spotify disappointed you while trying to discover new music. What happened?",
+    "type": "Paragraph"
+  },
+  {
+    "question": "If you could change only ONE thing about Spotify's music discovery, what would it be?",
+    "type": "Paragraph"
+  },
+  {
+    "question": "Have you ever done any of the following because Spotify wasn't helping you discover new music?",
+    "type": "Checkboxes",
+    "choices": ["Used YouTube to discover music", "Asked friends for recommendations", "Used Reddit or online communities", "Tried another music streaming app", "Created multiple Spotify accounts", "Built my own playlists manually", "None of the above", "Other"]
+  },
+  {
+    "question": "Would you be willing to participate in a 20-minute follow-up interview?",
+    "type": "Multiple Choice",
+    "choices": ["Yes", "No"]
+  },
+  {
+    "question": "Please share your phone number so we can contact you for a short follow-up interview (optional). Example: +91 9876543210",
+    "type": "Short Answer"
+  }
+]

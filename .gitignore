@@ -1,0 +1,87 @@
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# API keys & credentials
+*.pem
+*.key
+*.cert
+*.p12
+*.pfx
+credentials.json
+service-account*.json
+token.json
+
+# MCP settings (may contain tokens)
+.kiro/settings/mcp.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.virtualenv/
+.conda/
+
+# IDE & editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Node.js (for frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Data files (large/sensitive scraped data)
+data/raw/
+data/clean/
+data/clean_v2/
+data/analyzed/
+data/final/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Coverage & testing
+htmlcov/
+.coverage
+.coverage.*
+.pytest_cache/
+.tox/

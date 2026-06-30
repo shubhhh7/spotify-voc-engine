@@ -1,0 +1,22 @@
+import { registerRenderer } from "./registry";
+import { ExecutiveSummaryCard } from "../ExecutiveSummaryCard";
+import { SentimentSection } from "../SentimentSection";
+import { PainPointsSection } from "../PainPointsSection";
+import { FeatureRequestsSection } from "../FeatureRequestsSection";
+import { EmergingTrendsSection } from "../EmergingTrendsSection";
+import { ThemeClustersSection } from "../ThemeClustersSection";
+import { JobsToBeDoneSection } from "../JobsToBeDoneSection";
+import { CompetitorMentionsSection } from "../CompetitorMentionsSection";
+import { UserPersonasSection } from "../UserPersonasSection";
+import { ProductRecommendationsSection } from "../ProductRecommendationsSection";
+
+registerRenderer("executive_summary", ExecutiveSummaryCard);
+registerRenderer("sentiment_analysis", SentimentSection);
+registerRenderer("pain_points", PainPointsSection);
+registerRenderer("feature_requests", FeatureRequestsSection);
+registerRenderer("emerging_trends", EmergingTrendsSection);
+registerRenderer("theme_clustering", ThemeClustersSection);
+registerRenderer("jobs_to_be_done", JobsToBeDoneSection);
+registerRenderer("competitor_mentions", CompetitorMentionsSection);
+registerRenderer("user_personas", UserPersonasSection);
+registerRenderer("product_recommendations", ProductRecommendationsSection);
