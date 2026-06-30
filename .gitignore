@@ -52,6 +52,10 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
+# Next.js build output
+.next/
+out/
+
 # Database files
 *.db
 *.sqlite
